@@ -44,7 +44,7 @@ function menuCards () {
         return await res.json()
     }
 
-    getResourse('http://localhost:3000/menu')
+    getResourse('https://user-ilya.github.io/db.json')
         .then(data => {
             data.forEach(({
                 img,
