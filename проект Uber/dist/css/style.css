@@ -1,0 +1,240 @@
+*
+{
+    font-family: 'Roboto', sans-serif;
+}
+header
+{
+    position: relative;
+    height: 50px;
+}
+nav
+{
+    width: 100%;
+    height: 50px;
+    background-color: #212121;
+    position: fixed;
+    z-index: 2;
+}
+.menu
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+.menu .menu_link
+{
+    color:#ffffff;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 300;
+}
+.menu .menu_item
+{
+    border-right: 2px dotted #000000;
+    padding-right: 28px;
+}
+.subheader
+{
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 84px;
+    top: 50px;
+}
+.subheader .subheader_logo
+{
+    display: block;
+    min-width: 100%;
+    margin-top: 16px;
+}
+.subheader .subheader_text
+{
+    font-size: 13px;
+    font-weight: 100;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 6px;
+}
+
+.subheader .subheader_phone
+{
+    display: block;
+    margin-top: 19px;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: right;
+    color: #ffffff;
+}
+
+.subheader .subheader_tel
+{
+    display: block;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+
+}
+.subheader .subheader_btn
+{
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0px -2px 0 0 rgba(0, 0, 0, 0.12);
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    border: none;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.42);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 19px;
+}
+.promo
+{
+    height: 800px;
+    background: url(../image/bg-header.jpg) center center/ cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+.promo .title
+{
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 60px;
+
+}
+.promo .subtitle
+{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 36px;
+    margin-top: 22px;
+}
+.promo .main_promo_text
+{
+  font-size: 18px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-top: 23px;
+  line-height: 24px;
+  text-align: center;
+}
+.promo .promo_btn 
+{
+    display: block;
+    width: 258px;
+    height: 63px;
+    box-shadow: inset 0px -4px 0 0 rgba(0, 0, 0, 0.12);
+    border-radius:5px;
+    border: none;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-top: 118px;
+}
+.advantages
+{
+    height: 968px;
+    padding: 71px 0;
+
+}
+.advantages .advantages_title
+{
+
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    font-size: 11px;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.advantages .advantages_header{
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    color: #222222;
+    line-height: 38px;
+    margin: 0;
+    margin-top: 38px;
+    text-transform: uppercase;
+
+}
+.advantages .margin_card
+{
+    margin-top: 40px;
+}
+.advantages .advantages_card
+{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+
+.advantages .advantages_item_round
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+    margin-left: 35px;
+}
+.advantages .advantages_item_icon
+{
+    display: block;
+    margin: 0 auto;
+}
+.advantages .advantages_item_desc
+{
+    width: 342px;
+    margin-left: 26px;
+    
+
+}
+.advantages .advantages_item_title
+{
+    font-size: 17px;
+    font-weight: 400;
+    color: #1eacc7;
+}
+.advantages .advantages_item_text
+{
+    font-size: 15px;
+    font-weight: 300;
+    text-align: justify;
+    color: #202020;
+}
+.advantages .card_three
+{
+    margin-top: 51px;
+}
+.advantages .card_four
+{
+    margin-top: 47px;
+}
+
+

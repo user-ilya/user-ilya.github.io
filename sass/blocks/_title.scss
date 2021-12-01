@@ -1,0 +1,21 @@
+.title{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 60px;
+    color: #000000;
+    &_fz48{
+        font-size: 48px;
+        margin-top: 10px;
+    }
+    &_fz14 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    &__section_title{
+        margin-top: 6px;
+        text-align: center;
+    }
+    &__aboutMe, &__contacts{
+        margin-top: 6px;
+    }   
+}

@@ -1,0 +1,112 @@
+.skills{
+    min-height: 560px;
+    padding-top: 120px;
+    &__subtitle{
+        @include before_circle;
+        &:before{
+            top:-6px;
+            left:50%;
+            transform: translateX(-50%);
+        }
+        position: relative;
+        margin: 0;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    &__title{
+        text-align: center;
+    }
+    &__wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 425px);
+        grid-auto-rows: auto;
+        column-gap: 136px ;
+        margin-top: 60px;
+        padding-left: 60px;
+
+    }
+    &__item_title{
+        position: relative;
+        padding-left: 35px;
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0;
+        &:before{
+            content: '';
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            left: -7px;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: $main_color;
+            border-radius: 100%;
+        }
+
+    }
+    &__item {
+        ul {
+            position: relative;
+            list-style-type: none;
+            margin: 0;
+            &::before{
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 48px;
+                width: 43px;
+                height: 1px;
+                background-color: #000;
+            }
+            li{
+                position: relative;
+                &:after{
+                    content: '';
+                    position: absolute;
+                    width: 1px;
+                    height: calc(100% + 8px);
+                    background-color: #000;
+                    top: -8px;
+                    left: 0px;
+                }
+            }
+            
+        }
+        &_head{
+            position: relative;
+            padding-top: 25px;
+            padding-left: 100px;
+            h4 {
+                margin: 0;
+            }
+        }
+        &_icon{
+            position: absolute;
+            top: 37px;
+            left: 43px;
+            @include before_circle;
+            img {
+                position: absolute;
+                left: 16px;
+                top: 7px;
+            }
+
+        }
+        &_desc{
+            width: 420px;
+            margin-top: 12px;
+            padding-left: 43px;
+        }
+        &_location {
+            font-size: 12px;
+            line-height: 18px;  
+            margin-top: 2px;
+        }
+    }
+}
+.subline{
+    &-center{
+        margin: 25px auto 0 auto;
+    }
+
+}

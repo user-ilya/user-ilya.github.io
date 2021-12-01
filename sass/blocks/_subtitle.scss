@@ -1,0 +1,24 @@
+.subtitle{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    &__aboutMe, &__contacts{
+        @include before_circle;
+        position: relative;
+        padding-left: 17px;
+    }
+    &__section_subtitle {
+        position: relative;
+        margin: 0;
+        text-align: center;
+        text-transform: capitalize;
+        @include before_circle;
+        &:before{
+            top:-6px;
+            left:50%;
+            transform: translateX(-50%);
+        }
+    }
+    
+}

@@ -1,0 +1,467 @@
+@media ( max-width: 1200px)
+	.menu
+		&_item
+			padding-right: 20px
+		&_link
+			font-size: 13px
+			
+	.subheader
+		&_phone
+			text-align: right
+
+
+	.promo
+		&_title
+			font-size: 50px
+	
+	.advantages
+		min-height: 1030px
+		&_card
+			align-items: flex-start
+			margin-top: 25px
+		&_item_desc
+			width: 300px
+
+	.list
+		padding: 58px 0 74px 0
+		&_title
+			font-size: 20px
+		&_title-red
+			font-size: 20px
+		&_desc
+			font-size: 16px
+		&_content
+			&_item
+				font-size: 16px
+			&_item-red
+				font-size: 16px
+	
+	.header
+		font-size: 35px
+
+	.header_white
+		font-size: 35px
+
+	.city
+		max-height: 525px
+		&_all
+			margin-top: 285px
+
+	footer
+		padding: 14px 5px 14px 10px
+
+	.wrapper
+		&_nav
+			&_item
+				font-size: 14px
+		&_navbar
+			margin-top: 15px
+			&_item
+				font-size: 10px
+		&_lang
+			margin-top: 16px
+
+@media ( max-width: 991px)
+	.menu
+		padding: 13px 18px
+		&_item
+			padding-right: 10px
+	.subheader
+		&_phone
+			text-align: right
+		&_image
+			width: 100%
+		&_text
+			font-size: 11px
+		&_tel
+			font-size: 20px
+			text-align: right
+		&_btn
+			height: 40px
+			margin-top: 22px
+
+	.promo
+		&_title
+			font-size: 40px
+		&_subtitle
+			font-size: 30px
+
+	.advantages
+		&_card
+			flex-direction: column
+			align-items: center	
+		&_item_round
+			margin: 0	
+		&_item_desc
+			margin-top: 15px
+	
+	.opportunities
+		&_desc
+			font-size: 16px
+
+	.car
+		max-height: 775px
+		&_image
+			img	
+				width: 100%
+
+	.wrapper > div		
+		width: 100%
+		display: flex 
+		justify-content: center
+		margin-bottom: 20px
+		&:nth-child(1)
+			width: 100%
+		&:nth-child(3)
+			width: 100%
+			justify-content: center
+
+@media ( max-width: 767px)
+	.menu 
+		position: fixed
+		left: -100%
+		top: 0
+		padding: 20px 15px
+		width: 50%
+		height: 100vh
+		background-color:  rgba(0,0,0, 0.8)
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		transition: 0.6s all
+		&_active
+			left: 0
+		&_item
+			padding-right: 0
+			border: none
+			margin: 10px 0
+		&_link
+			display: block
+			font-size: 20px
+			text-align: center
+
+	.hamburger
+		display: block
+		position: absolute
+		right: 10px
+		top: 50%
+		transform: translateY(-50%)
+		width: 26px
+		height: 12px
+		span
+			display: block
+			height: 2px
+			margin-bottom: 2px
+			width: 100%
+			background-color: #fff
+			transition: 0.6s all
+		&_active
+			span
+				margin-bottom: -2px
+				&:first-child
+					transform: translateY(3px) rotate(-45deg)
+				&:nth-child(2)
+					display: none
+				&:last-child
+					transform: translateY(3px) rotate(45deg)
+
+	.xs-visit
+		display: block
+	.xs-hidden
+		display: none
+	.subheader
+		&_tel
+			display: block
+			margin-top: 13px
+			font-size: 16px
+			font-weight: 400
+			text-align: center
+			color: #ffffff
+			text-transform: uppercase
+		&_btn
+			display: block
+			margin: 5px auto
+			align-items: end
+			width: 160px
+			height: 30px
+			box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12)
+			border-radius: 3px
+			background-image: linear-gradient(to top, #1eacc7, #4ce2ff)
+			text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21)
+			font-size: 13px
+			font-weight: 400
+			text-align: center
+			color: #ffffff
+
+	.promo
+		&_title
+			line-height: 45px
+
+@media (max-width: 575px)
+	nav
+		height: 30px
+	header
+		height: 30px
+	.menu
+		&_link
+			text-align: center
+			font-size: 18px
+
+	.subheader
+		height: 60px
+		top: 30px
+		&_text
+			display: none
+		&_tel
+			display: block
+			margin-top: 7px
+			font-size: 12px
+			font-weight: 400
+			text-align: center
+			color: #ffffff
+			text-transform: uppercase
+			&:hover
+				text-decoration: none
+				color: $white
+		&_btn
+			display: block
+			margin: 5px auto 
+			width: 110px
+			height: 22px
+			box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12)
+			border-radius: 3px
+			background-image: linear-gradient(to top, #1eacc7, #4ce2ff)
+			text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21)
+			font-size: 10px
+			font-weight: 400
+			text-align: center
+			color: #ffffff
+	
+	.promo
+		min-height: 400px
+		padding: 113px 0 35px 0
+		&_title
+			font-size: 30px
+			line-height: 35px
+			padding: 0 15px
+		&_subtitle
+			font-size: 20px
+			line-height: 25px
+		&_btn
+			margin-top: 72px
+			width: 210px
+			height: 50px
+			font-size: 16px
+
+	.main_promo_text
+		display: none
+
+	.header
+		margin-top: 15px
+		font-size: 15px
+		font-weight: 700
+		text-align: center
+		color: #222222
+		line-height: 1
+
+	.header_white
+		margin-top: 15px
+		font-size: 15px
+		font-weight: 700
+		text-align: center
+		color: #fff
+	
+	.subtitle
+		margin-top: 11px
+		font-size: 14px
+		font-weight: 400
+		text-align: center
+		color: #222222
+	
+	.subtitle_white
+		margin-top: 11px
+		font-size: 14px
+		font-weight: 400
+		text-align: center
+		color: $white
+
+	.advantages
+		padding: 22px 0 50px 0
+		&_card
+			margin-top: 26px
+		&_item_round
+			width: 100px
+			height: 100px
+			margin: 0
+			margin-bottom: 27px
+		&_item_desc
+			margin: 0
+			margin-bottom: 30px
+			width: 100%
+			&:last-child
+				margin-bottom: 0
+		&_item_title
+			font-size: 16px
+		&_item_text
+			line-height: 1.4
+	.opportunities
+		padding: 22px 0 43px
+		&_item 
+			margin-top: 30px
+			height: 254px
+		&_desc
+			padding: 0 42px
+			padding-top: 81px
+			font-size: 18px
+
+	.one
+		margin-top: 27px
+
+	.car
+		height: 390px
+		&_bg
+			padding: 25px 0 33px 0
+			height: 390px
+		&_img
+			margin-top: 35px
+		&_desc
+			margin-top: 23px
+			color: $white
+
+	.car
+		.header_white
+			display: none
+	
+	.car
+		.subtitle_white
+			display: none
+	
+	.list
+		padding: 25px 0
+		&_block-top
+			margin-top: 22px
+		&_block-bottom
+				margin-top: 32px
+		&_title, &_title-red
+			font-size: 16px
+		&_content
+			margin-top: 6px	
+			&_item, &_item-red
+				font-size: 14px
+	
+	.city
+		height: 360px
+		padding: 25px 0 30px 0
+		.subtitle_white
+			margin-top: 10px
+			font-size: 14px
+			line-height: normal
+		.header_white
+			margin-top: 15px
+			font-size: 16px
+			line-height: normal
+		&_all
+			margin-top: 216px
+
+	.wrapper
+		display: none
+		&_line
+			width: 253px
+			height: 4px
+
+	footer
+		height: 250px
+		padding: 25px 0 20px 0
+	.footer > div
+		&:nth-child(1)
+			order: 2
+		&:nth-child(2)
+			order: 1
+		&:nth-child(3)
+			order: 3
+	.footer 
+		display: flex
+		justify-content: center
+		flex-wrap: wrap
+		&_social-icon
+			display: flex
+			justify-content: flex-start
+			align-items: center
+			margin-top: 20px
+			&_round
+				display: flex
+				justify-content: center
+				align-items: center
+				width: 32px
+				height: 32px
+				background-color: #070716
+				padding: 9px
+				border-radius: 100%
+				margin-right: 9px
+				i
+				color: #fff
+				&:hover
+					transform: translateY(-2px)
+					transition: 0.3s all
+					text-decoration: none
+					color: $white
+		&_nav
+			display: flex
+			justify-content: space-around
+			margin-top: 22px
+			padding-left: 18px
+			padding-right: 21px
+			&_item
+				font-size: 14px
+				font-weight: 300
+				text-align: left
+				color: #070716
+				text-transform: uppercase
+				transition: 0.4s all
+				&:hover
+					text-decoration: none
+					color: $lite_red
+		&_navbar
+			display: flex
+			justify-content: space-around
+			flex-wrap: wrap
+			&_item
+				margin-top: 13px
+				font-size: 11px
+				font-weight: 300
+				text-align: left
+				color: #999999
+				text-transform: uppercase
+				transition: 0.4s all
+				&:hover
+					text-decoration: none
+					color: $lite_red
+				&:nth-child(1)
+					margin-left: 38px
+				&:nth-child(2)
+					margin-right: 38px
+		&_lang
+			display: block
+			margin: 0 auto
+			margin-top: 13px
+			font-size: 11px
+			font-weight: 400
+			text-align: center
+			color: #1fbad6
+			text-transform: uppercase
+			transition: 0.4s all
+			width: max-content
+			&:hover
+				text-decoration: none
+				color: $lite_red
+		&_app
+			display: flex
+			justify-content: center
+			align-items: center
+			padding: 20px 0
+			&_icon
+				margin-right: 7px
+				&:hover
+					text-decoration: none
+					transform: translateY(-2px)
+					transition: 0.3s all	

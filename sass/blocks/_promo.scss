@@ -1,0 +1,39 @@
+.promo{
+    min-height: 802px;
+    position: relative;
+    background: url("../image/header/bg_header.jpg") 50% / cover no-repeat;
+    padding-top: 205px;
+    &__title{
+        width: 530px;
+    }
+    &__link{
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+        text-transform: capitalize;
+        text-align: center;
+        padding: 12px 25px;
+        &:last-child{
+            margin-left: 44px;
+        }
+        &:hover{
+            text-decoration: none;
+            color: #000;
+        }
+    }
+    &__button {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-top: 25px;
+
+    }
+    &__subtitle{
+        @include before_circle;
+        position: relative;
+        padding-left: 13px;
+        z-index: 10;
+    }
+
+}
